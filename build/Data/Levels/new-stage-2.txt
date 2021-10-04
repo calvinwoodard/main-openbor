@@ -39,8 +39,8 @@ panel		data/bgs/street/n05.gif	data/bgs/street/clubk		data/bgs/street/s05
 #	order	[a...z]		(a sequence of panels, e.g. abcdefghij)
 #	order	[a...z]
 #
-order abcdgghdfdfefdggcd
-order	fdefecdhfecggdab
+order abcdgchdfgfefdggcd
+order	fdefecdgfedggdab
 
 ## Spawning Area ##
 # Spawn format:
@@ -84,22 +84,22 @@ order	fdefecdhfecggdab
 
 #--group1-----
 
-spawn jhun
-health 20
+spawn lobster
+health 30
 coords 360 166
 at 486
 
-spawn angel
-health 20
+spawn joe
+health 30
 coords 360 210
 at 486
 
-spawn jhun
-health 20
+spawn mrbig
+health 40
 coords 360 166
 at 969
 
-spawn angel
+spawn ralf
 health 30
 coords -40 210
 at 969
@@ -110,12 +110,12 @@ at 1880
 group 1 4
 at 1880
 
-spawn jhun
-health 20
+spawn lobster
+health 30
 coords -40 166
 at 1880
 
-spawn eiji
+spawn lobster
 health 40
 coords -40 210
 at 1880
@@ -125,8 +125,8 @@ health 20
 coords 360 166
 at 1880
 
-spawn billy
-health 20
+spawn mrbig
+health 40
 coords 360 210
 at 1880
 
@@ -140,13 +140,13 @@ health 40
 coords -40 210
 at 2403
 
-spawn angel
+spawn joe
 health 20
 coords 360 166
 at 2403
 
-spawn billy
-health 10
+spawn ralf
+health 30
 coords 360 210
 at 2403
 
@@ -155,7 +155,7 @@ health 20
 coords -40 166
 at 3003
 
-spawn eiji
+spawn lobster
 health 20
 coords -40 210
 at 3003
@@ -172,10 +172,12 @@ at 3003
 
 spawn box
 item meat
+item 1up
 coords 360 196
 at 3396
 
-spawn rugal
+spawn heavy
+health 120
 boss 1
 coords 244 194
 at 3760

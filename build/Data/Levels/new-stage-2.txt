@@ -161,7 +161,7 @@ coords -40 210
 at 3003
 
 spawn angel
-health 20
+health 10
 coords 360 166
 at 3003
 
